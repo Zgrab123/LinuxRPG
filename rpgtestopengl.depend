@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1573423733 source:/home/velid/Desktop/rpgtestopengl/main.cpp
+	<iostream>
+	<GL/glew.h>
+	"display.h"
+	"mesh.h"
+
+1573417610 /home/velid/Desktop/rpgtestopengl/include/display.h
+	<SDL2/SDL.h>
+	<string>
+
+1573417525 source:/home/velid/Desktop/rpgtestopengl/src/display.cpp
+	"display.h"
+	<iostream>
+	<GL/glew.h>
+
+1573424024 /home/velid/Desktop/rpgtestopengl/include/mesh.h
+	<GL/glew.h>
+	<glm/glm.hpp>
+
