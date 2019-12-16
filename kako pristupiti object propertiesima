@@ -1,0 +1,9 @@
+import bge
+
+char1 = bge.logic.getCurrentScene().objects["char1"] # this will fail when there is no object called v1!
+speed1 = char1.get("speed")
+print("speed of char1 is", speed1)
+
+char2 = bge.logic.getCurrentScene().objects["char2"] # this will fail when there is no object called v1!
+speed2 = char2.get("speed")
+print("speed of char2 is", speed2)
