@@ -6,3 +6,55 @@ Use item
 Stun
 Skip turn
 Flee
+Buff
+
+
+// Imaju dvije strane
+// Max number karaktera na jednoj strani = 5
+
+// Battle 
+// Outside battle
+
+If in battle
+- Prepare battlefield
+- create character position 1
+create character position 2
+create character position 3
+create character position 4
+create character position 5
+Create enemy position 1
+Create enemy position 2
+Create enemy position 3
+Create enemy position 4
+Create enemy position 5
+Summon character 1 if playing
+Summon character 2 if playing
+Summon character 3 if playing
+Summon character 4 if playing
+Summon character 5 if playing
+Summon enemy 1 if playing
+Summon enemy 2 if playing
+Summon enemy 3 if playing
+Summon enemy 4 if playing
+Summon enemy 5 if playing
+
+Camera flythrough
+
+Decide turn order based on stats
+
+Turn order loop
+
+Execute turn based  buffs and debuffs (poison dmg, armor increase)
+      If character/enemy is not stunned and if character is not skipping turn
+
+Character action
+If target is rolling counter than execute counter and than if character is alive execute action
+
+Repeat for every enemy
+
+
+
+
+
+
+
